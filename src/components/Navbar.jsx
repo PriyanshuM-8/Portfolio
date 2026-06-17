@@ -97,8 +97,8 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
       {menuOpen && (
-        <div className="md:hidden fixed inset-x-0 top-14 bottom-0 overflow-y-auto flex flex-col z-50"
-          style={{ background: "rgba(8,8,8,0.97)", backdropFilter: "blur(20px)", borderTop: "1px solid rgba(201,136,38,0.1)" }}>
+        <div className="md:hidden fixed inset-x-0 top-14 bottom-0 overflow-y-auto flex flex-col z-50 "
+          style={{ background: "rgba(8,8,8,0.97)", backdropFilter: "blur(20px)", borderTop: "1px solid rgba(201,136,38,0.1)"}}>
           <div className="px-6 py-8 flex flex-col gap-1">
             {NAV_ITEMS.map((item) => (
               <a key={item} href={`#${item}`} onClick={() => setMenuOpen(false)}

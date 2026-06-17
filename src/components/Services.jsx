@@ -24,7 +24,7 @@ const Services = () => {
   const cardsRef = useRef([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/services")
+    fetch(`${import.meta.env.VITE_API_URL}/api/services`)
       .then(r => r.json())
       .then(d => setServices(d?.length ? d : fallbackServices))
       .catch(() => setServices(fallbackServices));
