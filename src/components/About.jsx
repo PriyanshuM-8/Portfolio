@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const GOLD = "#c98826";
-const API = "http://localhost:5000";
+const API  = import.meta.env.VITE_API_URL;
 
 const stats = [
   { label:"Experience", value:"1+ Year", icon:"🗓️" },
