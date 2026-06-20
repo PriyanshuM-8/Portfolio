@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import profile from "../assets/Priyanshu.jpeg";
+import profile from "../assets/Priyanshu.jpeg"; 
+
 
 const GOLD = "#c98826";
 const ROLES = ["MERN Stack Developer", "Full Stack Developer", "React Developer", "Node.js Developer", "Freelancer"];
