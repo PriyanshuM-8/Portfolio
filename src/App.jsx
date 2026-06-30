@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import "./App.css";
+import Gemini from "./components/Gemini";
 
 // Public Portfolio Layout
 const PortfolioLayout = () => {
@@ -19,6 +20,7 @@ const PortfolioLayout = () => {
         <Services />
         <Contact />
       </main>
+      <Gemini />
     </>
   );
 };
