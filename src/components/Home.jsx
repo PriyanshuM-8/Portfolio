@@ -124,7 +124,7 @@ const Home = () => {
               WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text",
               filter: "drop-shadow(0 2px 24px rgba(201,136,38,0.28))"
             }}>
-              Priyanshu Maddeshiya
+              Priyanshu Maddheshiya
             </span>
           </h1>
 
